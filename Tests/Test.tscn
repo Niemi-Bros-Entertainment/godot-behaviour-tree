@@ -1,26 +1,47 @@
 [gd_scene load_steps=23 format=2]
 
-[ext_resource path="res://Tests/TestRunner.gd" type="Script" id=1]
-[ext_resource path="res://BehaviorTree/Decorators/UntilFail.gd" type="Script" id=2]
-[ext_resource path="res://Tests/Leaves/s-f.gd" type="Script" id=3]
-[ext_resource path="res://BehaviorTree/Decorators/UntilSuccess.gd" type="Script" id=4]
-[ext_resource path="res://Tests/Leaves/f-s.gd" type="Script" id=5]
-[ext_resource path="res://BehaviorTree/Decorators/AlwaysFail.gd" type="Script" id=6]
-[ext_resource path="res://Tests/Leaves/Succeed.gd" type="Script" id=7]
-[ext_resource path="res://BehaviorTree/Decorators/AlwaysSucceed.gd" type="Script" id=8]
-[ext_resource path="res://Tests/Leaves/Fail.gd" type="Script" id=9]
-[ext_resource path="res://BehaviorTree/Decorators/Invert.gd" type="Script" id=10]
-[ext_resource path="res://Tests/Leaves/Call.gd" type="Script" id=11]
-[ext_resource path="res://BehaviorTree/Decorators/Limit.gd" type="Script" id=12]
-[ext_resource path="res://Tests/Leaves/LimitCheck.gd" type="Script" id=13]
-[ext_resource path="res://BehaviorTree/Decorators/Repeat.gd" type="Script" id=14]
-[ext_resource path="res://BehaviorTree/Composites/Parallel.gd" type="Script" id=15]
-[ext_resource path="res://Tests/Leaves/RepeatChild.gd" type="Script" id=16]
-[ext_resource path="res://BehaviorTree/Composites/Selector.gd" type="Script" id=17]
-[ext_resource path="res://BehaviorTree/Composites/RandomSelector.gd" type="Script" id=18]
-[ext_resource path="res://BehaviorTree/Composites/Sequence.gd" type="Script" id=19]
-[ext_resource path="res://BehaviorTree/Composites/RandomSequence.gd" type="Script" id=20]
-[ext_resource path="res://Tests/Leaves/StatusSequence.gd" type="Script" id=21]
+[ext_resource path="res://Submodules/godot-behaviour-tree/Tests/TestRunner.gd" type="Script" id=1]
+[ext_resource path="res://Submodules/godot-behaviour-tree/BehaviorTree/Decorators/UntilFail.gd" type="Script" id=2]
+[ext_resource path="res://Submodules/godot-behaviour-tree/Tests/Leaves/s-f.gd" type="Script" id=3]
+[ext_resource path="res://Submodules/godot-behaviour-tree/BehaviorTree/Decorators/UntilSuccess.gd" type="Script" id=4]
+[ext_resource path="res://Submodules/godot-behaviour-tree/Tests/Leaves/f-s.gd" type="Script" id=5]
+[ext_resource path="res://Submodules/godot-behaviour-tree/BehaviorTree/Decorators/AlwaysFail.gd" type="Script" id=6]
+[ext_resource path="res://Submodules/godot-behaviour-tree/Tests/Leaves/Succeed.gd" type="Script" id=7]
+[ext_resource path="res://Submodules/godot-behaviour-tree/BehaviorTree/Decorators/AlwaysSucceed.gd" type="Script" id=8]
+[ext_resource path="res://Submodules/godot-behaviour-tree/Tests/Leaves/Fail.gd" type="Script" id=9]
+[ext_resource path="res://Submodules/godot-behaviour-tree/BehaviorTree/Decorators/Invert.gd" type="Script" id=10]
+[ext_resource path="res://Submodules/godot-behaviour-tree/Tests/Leaves/Call.gd" type="Script" id=11]
+[ext_resource path="res://Submodules/godot-behaviour-tree/BehaviorTree/Decorators/Limit.gd" type="Script" id=12]
+[ext_resource path="res://Submodules/godot-behaviour-tree/Tests/Leaves/LimitCheck.gd" type="Script" id=13]
+[ext_resource path="res://Submodules/godot-behaviour-tree/BehaviorTree/Decorators/Repeat.gd" type="Script" id=14]
+[ext_resource path="res://Submodules/godot-behaviour-tree/BehaviorTree/Composites/Parallel.gd" type="Script" id=15]
+[ext_resource path="res://Submodules/godot-behaviour-tree/Tests/Leaves/RepeatChild.gd" type="Script" id=16]
+[ext_resource path="res://Submodules/godot-behaviour-tree/BehaviorTree/Composites/Selector.gd" type="Script" id=17]
+[ext_resource path="res://Submodules/godot-behaviour-tree/BehaviorTree/Composites/RandomSelector.gd" type="Script" id=18]
+[ext_resource path="res://Submodules/godot-behaviour-tree/BehaviorTree/Composites/Sequence.gd" type="Script" id=19]
+[ext_resource path="res://Submodules/godot-behaviour-tree/BehaviorTree/Composites/RandomSequence.gd" type="Script" id=20]
+[ext_resource path="res://Submodules/godot-behaviour-tree/Tests/Leaves/StatusSequence.gd" type="Script" id=21]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 [sub_resource type="GDScript" id=1]
 script/source = "extends Task

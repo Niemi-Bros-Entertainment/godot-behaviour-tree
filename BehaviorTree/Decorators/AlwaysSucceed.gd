@@ -1,6 +1,6 @@
 extends Task
 
-class_name AlwaysSucceed, "res://icons/always-succeed.png"
+class_name AlwaysSucceed, "res://Submodules/godot-behaviour-tree/icons/always-succeed.png"
 
 func run():
 	if get_child_count() > 0:

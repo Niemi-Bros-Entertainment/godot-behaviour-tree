@@ -2,7 +2,7 @@ extends Task
 
 # Only reports a failure
 
-class_name UntilFail, "res://icons/until-fail.png"
+class_name UntilFail, "res://Submodules/godot-behaviour-tree/icons/until-fail.png"
 
 func run():
 	get_child(0).run()

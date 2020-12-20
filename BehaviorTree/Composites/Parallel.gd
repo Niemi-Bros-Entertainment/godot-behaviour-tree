@@ -2,7 +2,7 @@ extends Task
 
 # Run all child Tasks together in SEQUENCE or SELECTOR policy mode
 
-class_name Parallel, "res://icons/parallel.png"
+class_name Parallel, "res://Submodules/godot-behaviour-tree/icons/parallel.png"
 
 enum { SEQUENCE, SELECTOR }
 

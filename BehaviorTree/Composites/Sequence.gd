@@ -2,7 +2,7 @@ extends Task
 
 # All children must run successfully
 
-class_name Sequence, "res://icons/sequence.png"
+class_name Sequence, "res://Submodules/godot-behaviour-tree/icons/sequence.png"
 
 var current_child = 0
 

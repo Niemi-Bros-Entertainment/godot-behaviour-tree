@@ -2,7 +2,7 @@ extends Task
 
 # One randomly selected child must succeed
 
-class_name RandomSelector, "res://icons/random-selector.png"
+class_name RandomSelector, "res://Submodules/godot-behaviour-tree/icons/random-selector.png"
 
 var sequence
 var idx = 0
